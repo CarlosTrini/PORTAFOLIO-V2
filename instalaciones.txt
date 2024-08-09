@@ -1,0 +1,9 @@
+npm install normalize.css
+npm install reactstrap react react-dom
+npm install bootstrap
+npm install sass
+npm i --save lodash
+npm i --save-dev @types/lodash
+npm install antd --save
+npm install sweetalert2
+npm i swiper
