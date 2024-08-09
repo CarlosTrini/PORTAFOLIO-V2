@@ -14,7 +14,9 @@ const Me = () => {
             <p className="mb-2"><i className="fa-solid fa-feather-pointed me-1 t-fs-12 t-text-yellow"></i> Me llamo Carlos Trinidad, pero es muy común que me digan Trinidad.</p>
             <p className="mb-2"><i className="fa-solid fa-feather-pointed me-1 t-fs-12 t-text-yellow"></i> Tengo 29 años, con una carrera en Ingeniería es sistemas computacionales.</p>
             <p className="mb-2"><i className="fa-solid fa-feather-pointed me-1 t-fs-12 t-text-yellow"></i> Estudié en el instituto tecnológico de iztapalapa.</p>
+            <p className="mb-2"><i className="fa-solid fa-feather-pointed me-1 t-fs-12 t-text-yellow"></i> Tengo <span className="t-text-yellow">2 y medio años trabajando con ReactJs.</span></p>
             <p className="mb-2"><i className="fa-solid fa-feather-pointed me-1 t-fs-12 t-text-yellow"></i> Tengo gusto por la lectura y de vez en cuando escribo.</p>
+
           </div>
         </div>
         </Col>

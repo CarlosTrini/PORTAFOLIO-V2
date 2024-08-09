@@ -44,7 +44,7 @@ const Header = () => {
                 {"}"}
               </h1>
               <h5 className="t-fs-20 t-text-yellow">FrontEnd Development</h5>
-              <div className="t-fs-16 text-start mt-4">
+              <div className="t-fs-16 text-center mt-4">
                 <p className="mb-0">
                   Mi nombre es{" "}
                   <span className="fw-bold t-text-yellow">
@@ -92,6 +92,7 @@ const Header = () => {
                 })}
             </div>
           </div>
+       
         </div>
       </header>
     </>

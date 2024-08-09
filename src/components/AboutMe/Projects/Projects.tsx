@@ -14,7 +14,7 @@ const Projects = () => {
 
   return (
     <>
-      <div>
+      <div className="projects-container">
           <Swiper
             style={{ minHeight: 400 }}
             modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -28,7 +28,7 @@ const Projects = () => {
           >
         { isNil(projectsInfo) === false && isEmpty(projectsInfo) === false && projectsInfo.map(p => (
 
-          <SwiperSlide>
+          <SwiperSlide >
             <CardProject projectInfo={p} key={p.id} />
           </SwiperSlide>
         ))

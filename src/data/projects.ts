@@ -10,6 +10,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     description:
       "Sitio de cursos online en el que se puede registrar al usuario e iniciar sesión, simular compras de cursos, visitar cursos por categorias, visitar perfiles de profesores y perfiles de cada curso, agregar comentarios con calificación al curso, el usuario tiene un perfil donde puede agregar tarjetas (FAKE) de pago, cambiar foto de perfil, ver sus cursos adquiridos y agregar a favoritos... cuenta con persitencia. Todo es desde localStorage",
     tags: [
+      "Typescript",
       "React Ts",
       "React Router Dom /sites/v6.png",
       "SweetAlert",
@@ -27,6 +28,7 @@ export const projectsInfo: ProjectsInfoT[] = [
         "https://github.com/CarlosTrini/Online-Academy",
       back: "",
     },
+    size: '1879 × 919'
   },
    {
     id: "69f43843-1049-441c-9ba7-606ae54a0502",
@@ -37,15 +39,16 @@ export const projectsInfo: ProjectsInfoT[] = [
     description:
       "Juego de memorama de la caricatura de Rick & Morty con tres niveles de dificultad. Las imágenes son dinámicas en cada juego ya que son traidas desde la misma API de rickymorty",
     tags: ["HTML", "Javascript", "SCSS", "SweetAlert", "Github"],
-    techs: ["html", "scss", "js"],
+    techs: ["html", "css", "js"],
     img: "/img/sites/rym.png",
     github: {
-      front: "https://github.com/CarlosTrini/memorama-r-m",
+      front: "https://github.com/CarlosTrini/RickyMorty",
       back: "",
     },
+    size: '1879 × 919'
   },
 
-  {
+   {
     id: "258d600d-e20b-4f44-b26c-44a49d1d49ff",
     year: '2021',
     name: "MyFeeling",
@@ -72,7 +75,25 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/myFeeling",
       back: "",
     },
+    size: '1879 × 919'
   },
+{
+ id: "69f43843-1049-441c-9ba7-606ae54a4852",
+ year: '2024',
+ name: "Developers bar",
+ hosting: "netlify",
+ url: "https://developersbar.netlify.app/",
+ description:
+   "Juego de memorama de la caricatura de Rick & Morty con tres niveles de dificultad. Las imágenes son dinámicas en cada juego ya que son traidas desde la misma API de rickymorty",
+ tags: ["HTML", "Javascript", "SCSS", "SweetAlert", "Github"],
+ techs: ["html", "css", "js"],
+ img: "/img/sites/developersbar.png",
+ github: {
+   front: "https://github.com/CarlosTrini/DevelopersBar",
+   back: "",
+ },
+ size: '1879 × 919'
+},
   {
     id: "003fb9d6-25c8-404c-aabe-b64c9b4c2c63",
     year: '2021',
@@ -101,6 +122,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/barbershop-front",
       back: "https://github.com/CarlosTrini/barbershop-back",
     },
+    size: '1879 × 919'
   },
   // {
   //   id: "614d334d-3ece-40e1-80c9-9e5142278132",
@@ -153,6 +175,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/star-wars-api",
       back: "",
     },
+    size: '1879 × 919'
   },
   {
     id: "821fb4j7-903cs-2943c-ñlks-g239a3i7s1t09",
@@ -174,6 +197,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/PORTAFOLIO",
       back: "",
     },
+    size: '1879 × 919'
   },
   // {
   //   id: "69f41795-1049-441c-9ba7-606ae54a0502",
@@ -207,6 +231,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/event-organizer",
       back: "",
     },
+    size: '1879 × 919'
   },
 
   // {

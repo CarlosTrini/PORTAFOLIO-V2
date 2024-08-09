@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#PROPIOS
+instalaciones.txt
+indexOriginal.html

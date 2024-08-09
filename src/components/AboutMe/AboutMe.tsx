@@ -37,16 +37,16 @@ const AboutMe = () => {
                       ),
                       children: <Projects />,
                     },
-                    {
-                      key: "3",
-                      label: (
-                        <p className="mb-0 fw-bold ">
-                          <i className="fa-solid fa-earth-americas ms-1"></i> Experiencia
-                          laboral{" "}
-                        </p>
-                      ),
-                      children: "Content of Tab Pane 3",
-                    },
+                    // {
+                    //   key: "3",
+                    //   label: (
+                    //     <p className="mb-0 fw-bold ">
+                    //       <i className="fa-solid fa-earth-americas ms-1"></i> Experiencia
+                    //       laboral{" "}
+                    //     </p>
+                    //   ),
+                    //   children: "Content of Tab Pane 3",
+                    // },
                   ]
             }
             onChange={onChange}

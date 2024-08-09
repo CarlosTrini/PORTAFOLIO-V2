@@ -24,6 +24,7 @@ export type ProjectsInfoT = {
     img: string; //(link)
     github: GitInfoT,
     year: string;
+    size: string;
 }
 
 
