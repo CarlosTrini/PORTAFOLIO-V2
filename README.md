@@ -9,4 +9,4 @@ SweetAlert, tsParticles, bootstra, fontawesome, api de rick y morty (https://ric
 
 Link ==> https://portafolio-c-trinidad.netlify.app/
 
-![Imagen preview](/img/preview.png)
+![Imagen preview](/public/img/preview.png)
