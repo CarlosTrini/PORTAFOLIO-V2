@@ -28,7 +28,7 @@ export const socialInfo: SocialInfoT[] = [
     {
         id: 4,
         socialName: 'C.V.',
-        link: 'https://drive.google.com/file/d/1skyR_FdGSzydr2HRrgeTvYL_aPez3kml/view?usp=sharing',
+        link: 'https://drive.google.com/file/d/1ltu9qkd8U6ATy0ArDGxzOqGE3o3Qh-eX/view?usp=drive_link',
         icon: `fa-solid fa-file-pdf`,
         copy: false,
         canDownload: false,
