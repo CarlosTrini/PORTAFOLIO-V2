@@ -1,9 +1,8 @@
-npm install normalize.css
-npm install reactstrap react react-dom
-npm install bootstrap
-npm install sass
-npm i --save lodash
-npm i --save-dev @types/lodash
-npm install antd --save
+npm install react react-dom
+npm install tailwindcss @tailwindcss/vite
+npm install lucide-react
+npm install antd
+npm install swiper
 npm install sweetalert2
-npm i swiper
+npm install lodash
+npm install -D @types/lodash

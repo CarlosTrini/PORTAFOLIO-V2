@@ -84,8 +84,8 @@ export const projectsInfo: ProjectsInfoT[] = [
  hosting: "netlify",
  url: "https://developersbar.netlify.app/",
  description:
-   "Juego de memorama de la caricatura de Rick & Morty con tres niveles de dificultad. Las imágenes son dinámicas en cada juego ya que son traidas desde la misma API de rickymorty",
- tags: ["HTML", "Javascript", "SCSS", "SweetAlert", "Github"],
+   "Sitio para desarrolladores construido con HTML, JavaScript y SCSS. Incluye secciones de presentación, tecnologías, servicios y contacto, con diseño responsivo y animaciones de scroll.",
+ tags: ["HTML", "Javascript", "SCSS", "Github"],
  techs: ["html", "css", "js"],
  img: "/img/sites/developersbar.png",
  github: {

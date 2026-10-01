@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-light: #60a5fa;
+  --color-accent: #06b6d4;
+  --color-accent-hover: #0891b2;
+  --color-highlight: #f59e0b;
+  --color-highlight-hover: #d97706;
+  --color-dark-bg: #0b0f19;
+  --color-dark-surface: #111827;
+  --color-dark-card: #151f32;
+  --color-dark-card-hover: #1b2842;
+  --color-dark-border: rgba(255, 255, 255, 0.08);
+  --color-dark-border-hover: rgba(59, 130, 246, 0.35);
+  --color-dark-text-main: #f8fafc;
+  --color-dark-text-muted: #94a3b8;
+  --color-dark-text-dim: #64748b;
+  --font-sans: 'Plus Jakarta Sans', 'Roboto', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Base & Utilities */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f293d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(21, 31, 50, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* Ant Design Dark Overrides for seamless look */
+.ant-modal .ant-modal-content {
+  background-color: #111827 !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7) !important;
+}
+
+.ant-tabs-nav::before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-tabs .ant-tabs-tab {
+  color: #94a3b8 !important;
+  transition: all 0.2s ease !important;
+}
+
+.ant-tabs .ant-tabs-tab:hover {
+  color: #60a5fa !important;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #38bdf8 !important;
+  font-weight: 600 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: linear-gradient(90deg, #3b82f6, #06b6d4) !important;
+  height: 3px !important;
+  border-radius: 2px !important;
+}
+
+.ant-popover-inner {
+  background-color: #111827 !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6) !important;
+}
+
+.ant-popover-arrow::after {
+  background: #111827 !important;
+}
+
+/* Swiper Custom Navigation & Pagination styling */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-primary-light) !important;
+  background: rgba(17, 24, 39, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  backdrop-filter: blur(8px) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.2s ease !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #3b82f6 !important;
+  color: #ffffff !important;
+  border-color: #3b82f6 !important;
+  transform: scale(1.08);
+}
+
+.swiper-pagination-bullet {
+  background: #64748b !important;
+  opacity: 0.6 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #38bdf8 !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 9999px !important;
+}
+
