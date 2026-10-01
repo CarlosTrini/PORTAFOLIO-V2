@@ -1,6 +1,7 @@
 import { ProjectsInfoT } from "../interfacesTypes/types";
 
 export const projectsInfo: ProjectsInfoT[] = [
+
   {
     id: "623g334d-3ece-40e1-80c9-9e5142278132",
     year: '2024',
@@ -30,7 +31,68 @@ export const projectsInfo: ProjectsInfoT[] = [
     },
     size: '1879 × 919'
   },
-   {
+  {
+    id: "623g334d-3ece-40e1-80c9-9e5142938732",
+    year: '2026',
+    name: "Pets Vet (landingPage)",
+    hosting: "netlify",
+    url: "https://petsvet.netlify.app/",
+    description:
+      "Landing page para veterinaria Pets Vet. Responsive con formulario de contacto y sección de FAQ",
+    tags: [
+      "Typescript",
+      "React Ts",
+      "Astro",
+      "Tailwind",
+      "Github",
+    ],
+    techs: [
+      "tailwind",
+      "react",
+      "astro",
+      "typescript",
+    ],
+    img: "/img/sites/petsvet.png",
+    github: {
+      front:
+        "https://github.com/CarlosTrini/2026-PETS-VET",
+      back: "",
+    },
+    size: '1879 × 919'
+  },
+  {
+    id: "623g334d-3ece-40e1-68c9-9e5142938732",
+    year: '2026',
+    name: "Vertice Global (blog noticiero)",
+    hosting: "netlify",
+    url: "https://vertice-global-portal.netlify.app/",
+    description:
+      "portal de noticias con diferentes tópicos/categorías. Las notas son creadas con Markdown para posteriormente ser consumidas y mostradas. El sitio cuenta con diferentes secciones de tópicos. Puedes dar click y leer las notas, puedes también ir a la página donde encontrar solo las notas creadas con el topico que elijas. Página de nosotros y avisos de privacidad",
+    tags: [
+      "Typescript",
+      "Astro",
+      "Markdown",
+      "Tailwind",
+      "Lucide icons",
+      "swiper",
+      "Github",
+      "getStaticPaths"
+    ],
+    techs: [
+      "tailwind",
+      "react",
+      "astro",
+      "typescript",
+    ],
+    img: "/img/sites/verticeglobal.png",
+    github: {
+      front:
+        "https://github.com/CarlosTrini/2026-VERTICE-GLOBAL",
+      back: "",
+    },
+    size: '1879 × 919'
+  },
+  {
     id: "69f43843-1049-441c-9ba7-606ae54a0502",
     year: '2024',
     name: "Juego Rick&Morty",
@@ -48,52 +110,52 @@ export const projectsInfo: ProjectsInfoT[] = [
     size: '1879 × 919'
   },
 
-   {
-    id: "258d600d-e20b-4f44-b26c-44a49d1d49ff",
-    year: '2021',
-    name: "MyFeeling",
-    hosting: "vercel y firebase",
-    url: "https://my-feeling-carlostrini.vercel.app/",
+  // {
+  //   id: "258d600d-e20b-4f44-b26c-44a49d1d49ff",
+  //   year: '2021',
+  //   name: "MyFeeling",
+  //   hosting: "vercel y firebase",
+  //   url: "https://my-feeling-carlostrini.vercel.app/",
+  //   description:
+  //     "MyFeeling es un sitio en el que te puedes registrar, iniciar sesión, publicar historias breves con una imagen de portada, dar like y comentar tus publicaciones y las de otros. Tambien puedes visitar los perfiles de otros usuarios",
+  //   tags: [
+  //     "react",
+  //     "/sites/nextjs.png",
+  //     "server-Side-Props",
+  //     "firebase-database",
+  //     "firebase-auth",
+  //     "firebase-storage",
+  //     "css-module",
+  //     "javascript",
+  //     "react-useContext",
+  //     "SweetAlert",
+  //     "Github",
+  //   ],
+  //   techs: ["react", "nextjs", "firebase", "css", "sweetalert"],
+  //   img: "/img/sites/myfeeling.png",
+  //   github: {
+  //     front: "https://github.com/CarlosTrini/myFeeling",
+  //     back: "",
+  //   },
+  //   size: '1879 × 919'
+  // },
+  {
+    id: "69f43843-1049-441c-9ba7-606ae54a4852",
+    year: '2024',
+    name: "Developers bar",
+    hosting: "netlify",
+    url: "https://developersbar.netlify.app/",
     description:
-      "MyFeeling es un sitio en el que te puedes registrar, iniciar sesión, publicar historias breves con una imagen de portada, dar like y comentar tus publicaciones y las de otros. Tambien puedes visitar los perfiles de otros usuarios",
-    tags: [
-      "react",
-      "/sites/nextjs.png",
-      "server-Side-Props",
-      "firebase-database",
-      "firebase-auth",
-      "firebase-storage",
-      "css-module",
-      "javascript",
-      "react-useContext",
-      "SweetAlert",
-      "Github",
-    ],
-    techs: ["react", "nextjs", "firebase", "css", "sweetalert"],
-    img: "/img/sites/myfeeling.png",
+      "Sitio para desarrolladores construido con HTML, JavaScript y SCSS. Incluye secciones de presentación, tecnologías, servicios y contacto, con diseño responsivo y animaciones de scroll.",
+    tags: ["HTML", "Javascript", "SCSS", "Github"],
+    techs: ["html", "css", "js"],
+    img: "/img/sites/developersbar.png",
     github: {
-      front: "https://github.com/CarlosTrini/myFeeling",
+      front: "https://github.com/CarlosTrini/DevelopersBar",
       back: "",
     },
     size: '1879 × 919'
   },
-{
- id: "69f43843-1049-441c-9ba7-606ae54a4852",
- year: '2024',
- name: "Developers bar",
- hosting: "netlify",
- url: "https://developersbar.netlify.app/",
- description:
-   "Sitio para desarrolladores construido con HTML, JavaScript y SCSS. Incluye secciones de presentación, tecnologías, servicios y contacto, con diseño responsivo y animaciones de scroll.",
- tags: ["HTML", "Javascript", "SCSS", "Github"],
- techs: ["html", "css", "js"],
- img: "/img/sites/developersbar.png",
- github: {
-   front: "https://github.com/CarlosTrini/DevelopersBar",
-   back: "",
- },
- size: '1879 × 919'
-},
   {
     id: "003fb9d6-25c8-404c-aabe-b64c9b4c2c63",
     year: '2021',

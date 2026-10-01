@@ -2,7 +2,6 @@ import {
   User,
   GraduationCap,
   Clock,
-  BookOpen,
   Code2,
   Server,
   Database,

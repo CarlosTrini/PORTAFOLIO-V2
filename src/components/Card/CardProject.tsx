@@ -37,12 +37,12 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
             className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-out"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent opacity-80" />
+          <div className="absolute inset-0 bg-linear-to-t from-dark-card via-transparent to-transparent opacity-80" />
 
           {/* Badges on image */}
           <div className="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-dark-surface/90 border border-dark-border text-xs font-semibold text-primary backdrop-blur-md">
-            <Calendar className="w-3 h-3" />
-            <span>{projectInfo.year}</span>
+            <Calendar className="w-3 h-3 text-amber-300" />
+            <span className="text-amber-300">{projectInfo.year}</span>
           </div>
 
           <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-dark-surface/90 border border-dark-border text-xs font-medium text-dark-text-muted capitalize backdrop-blur-md">
@@ -57,7 +57,7 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
               <FolderGit2 className="w-4 h-4 text-accent shrink-0" />
               <span>{projectInfo.name}</span>
             </h4>
-            
+
             <p className="mt-2 text-xs md:text-sm text-dark-text-muted line-clamp-2 leading-relaxed">
               {projectInfo.description}
             </p>

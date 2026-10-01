@@ -69,18 +69,18 @@ const categories: Category[] = [
   },
 ];
 
-const LevelLabel = ({ level }: { level: number }) => {
-  if (level >= 85) return <span className="text-emerald-400">Avanzado</span>;
-  if (level >= 65) return <span className="text-primary">Intermedio</span>;
-  return <span className="text-dark-text-muted">Básico</span>;
-};
+// const LevelLabel = ({ level }: { level: number }) => {
+//   if (level >= 85) return <span className="text-emerald-400">Avanzado</span>;
+//   if (level >= 65) return <span className="text-primary">Intermedio</span>;
+//   return <span className="text-dark-text-muted">Básico</span>;
+// };
 
 const Skills = () => {
   return (
     <div className="w-full py-8">
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-150 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
         {categories.map((cat) => (
           <div
             key={cat.label}
