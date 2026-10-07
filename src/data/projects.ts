@@ -3,6 +3,40 @@ import { ProjectsInfoT } from "../interfacesTypes/types";
 export const projectsInfo: ProjectsInfoT[] = [
 
   {
+    id: "623g334d-3ece-40e1-68c9-9e5129674732",
+    year: '2026',
+    name: "Arquitectos MX (Sitio web con posts de blog y proyectos)",
+    hosting: "netlify",
+    url: "https://despacho-arquitectos-mx.netlify.app/",
+    description:
+      "Portal de arquitectura con diferentes secciones: proyectos, servicios, proceso, equipo, blog y contacto. Los posts de blog y proyectos son creados con Markdown para posteriormente ser consumidos y mostradas.  Puedes dar click y leer las notas, puedes también ir a la página donde encontrar solo las notas creadas con el tema que elijas",
+    tags: [
+      "Typescript",
+      "Astro",
+      "Markdown",
+      "Tailwind",
+      "Lucide icons",
+      "swiper",
+      "Github",
+      "getStaticPaths",
+      "React",
+      "picsum"
+    ],
+    techs: [
+      "tailwind",
+      "react",
+      "astro",
+      "typescript",
+    ],
+    img: "/img/sites/arquitectos.png",
+    github: {
+      front:
+        "https://github.com/CarlosTrini/2026-ARQUITECTOS-MX-ASTRO",
+      back: "",
+    },
+    size: '1920 × 1080'
+  },
+  {
     id: "623g334d-3ece-40e1-80c9-9e5142278132",
     year: '2024',
     name: "Online Academy",
@@ -91,6 +125,23 @@ export const projectsInfo: ProjectsInfoT[] = [
       back: "",
     },
     size: '1879 × 919'
+  },
+  {
+    id: "69f43845-1372-441c-9ba7-606ae54a4852",
+    year: '2026',
+    name: "Café Komorebi (LandingPage)",
+    hosting: "netlify",
+    url: "https://komorebi-cafeshop.netlify.app/",
+    description:
+      "Landing page para café Komorebi. Diseño minimalista y elegante",
+    tags: ["Typescript", "Astro", "Markdown", "Tailwind", "Lucide icons", "swiper", "Github"],
+    techs: ["html", "css", "js"],
+    img: "/img/sites/komorebi.png",
+    github: {
+      front: "https://github.com/CarlosTrini/2026-CAFETERIA-ASTR",
+      back: "",
+    },
+    size: '1920 × 1080'
   },
   {
     id: "69f43843-1049-441c-9ba7-606ae54a0502",

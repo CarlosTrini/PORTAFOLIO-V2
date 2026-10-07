@@ -12,11 +12,12 @@ import {
   Layers,
   Trophy,
 } from "lucide-react";
+import { projectsInfo } from "../../data/projects";
 
 // Stats shown below tabs — recruiters scan these in < 5s
 const stats = [
   { icon: <Briefcase className="w-4 h-4" />, value: "4", label: "Años de exp." },
-  { icon: <Code2 className="w-4 h-4" />, value: "8", label: "Proyectos" },
+  { icon: <Code2 className="w-4 h-4" />, value: projectsInfo.length, label: "Proyectos" },
   { icon: <Layers className="w-4 h-4" />, value: "Siempre aprendiendo", label: "Tecnologías" },
   { icon: <Trophy className="w-4 h-4" />, value: "React, Astro, NextJs", label: "Stack principal" },
 ];
@@ -36,7 +37,7 @@ const AboutMe = () => {
 
       <div className="max-w-6xl mx-auto relative z-10">
 
-        {/* Stats strip — lo primero que escanea un reclutador */}
+
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
           {stats.map((s, i) => (
             <div

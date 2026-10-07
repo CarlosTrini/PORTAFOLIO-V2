@@ -9,10 +9,11 @@ import { projectsInfo } from "../../../data/projects";
 import { isEmpty, isNil } from "lodash";
 import { Sparkles, Layers } from "lucide-react";
 
+
 const Projects = () => {
   return (
     <div className="w-full py-6">
-      {/* Section Header inside Tab */}
+      {/* Section Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
         <div>
           <h3 className="text-xl md:text-2xl font-bold text-dark-text-main flex items-center gap-2">
