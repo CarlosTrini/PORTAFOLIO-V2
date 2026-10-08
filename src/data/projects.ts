@@ -1,7 +1,23 @@
 import { ProjectsInfoT } from "../interfacesTypes/types";
 
 export const projectsInfo: ProjectsInfoT[] = [
-
+  {
+    id: "69f43843-1049-4pwc-9ba7-606ae54a0502",
+    year: '2026',
+    name: "Juego Simon Dice",
+    hosting: "netlify",
+    url: "https://juego-simon-dice-react.netlify.app/",
+    description:
+      "El clásico juego de simón dice pero con 4 niveles de dificultad y hasta 4 jugadores",
+    tags: ["Typescript", "React", "Context", "Tailwind", "Github", "lucide icons"],
+    techs: ["react", "context", "typescript", "tailwind", "react icons", 'SweetAlert2', 'canvas-conffetti'],
+    img: "/img/sites/simon-dice.png",
+    github: {
+      front: "https://github.com/CarlosTrini/2026-SIMON-DICE-REACT",
+      back: "",
+    },
+    size: '1920 × 1080'
+  },
   {
     id: "623g334d-3ece-40e1-68c9-9e5129674732",
     year: '2026',
