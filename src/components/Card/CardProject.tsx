@@ -11,7 +11,8 @@ import {
   Monitor,
   Calendar,
   Layers,
-  Sparkles
+  Sparkles,
+  CheckCircle2
 } from "lucide-react";
 import { GithubIcon } from "../Icons/SocialIcons";
 
@@ -53,6 +54,7 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
         {/* Card Body */}
         <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
           <div>
+
             <h4 className="text-lg font-bold text-dark-text-main group-hover:text-primary transition-colors flex items-center gap-2">
               <FolderGit2 className="w-4 h-4 text-accent shrink-0" />
               <span>{projectInfo.name}</span>
@@ -63,8 +65,16 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
             </p>
           </div>
 
+          <div className="flex gap-2 mb-3">
+            {
+              projectInfo.category.map((c) => (
+                <span key={c} className="p-1 font-bold rounded-sm bg-primary/60 border-2 border-transparent text-xs text-light font-mono capitalize group-hover:border-accent ">{c}</span>
+              ))
+            }
+          </div>
+
           {/* Tech Stack Icons */}
-          <div className="pt-2 border-t border-dark-border">
+          {/* <div className="pt-2 border-t border-dark-border">
             <div className="flex items-center gap-2 flex-wrap">
               {projectInfo.techs.map((t) => (
                 <Popover key={t} content={<span className="text-xs capitalize">{t}</span>} title="">
@@ -78,7 +88,7 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
                 </Popover>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Action Buttons */}
           <div className="pt-2 flex items-center gap-2">
@@ -92,7 +102,7 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
 
             <Popover
               content={
-                <span className="text-xs">Resolución recomendada: {projectInfo.size}</span>
+                <span className="text-xs text-highlight">Resolución recomendada: {projectInfo.size}</span>
               }
               title=""
             >
@@ -155,6 +165,7 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
           {/* Modal Content */}
           <div className="p-6 space-y-6">
             {/* Meta info boxes */}
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-3.5 rounded-xl bg-dark-card border border-dark-border flex items-center gap-3">
                 <Server className="w-5 h-5 text-primary shrink-0" />
@@ -182,6 +193,22 @@ const CardProject: React.FC<PropsT> = ({ projectInfo }) => {
               <p className="text-sm md:text-base text-dark-text-muted leading-relaxed p-4 rounded-xl bg-dark-card/50 border border-dark-border">
                 {projectInfo.description}
               </p>
+            </div>
+
+            {/* Categories */}
+            <div>
+
+              <h5 className="text-xs font-semibold text-accent uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
+                <CheckCircle2 className="w-3.5 h-3.5" />
+                Categoría/s
+              </h5>
+              <div className="flex gap-2 mb-3">
+                {
+                  projectInfo.category.map((c) => (
+                    <span key={c} className="p-1 font-bold rounded-sm bg-primary/60 border-2 border-transparent text-xs text-light font-mono capitalize group-hover:border-accent ">{c}</span>
+                  ))
+                }
+              </div>
             </div>
 
             {/* Tags / Stack */}

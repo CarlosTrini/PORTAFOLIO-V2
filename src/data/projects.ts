@@ -4,13 +4,14 @@ export const projectsInfo: ProjectsInfoT[] = [
   {
     id: "69f43843-1049-4pwc-9ba7-606ae54a0502",
     year: '2026',
-    name: "Juego Simon Dice",
+    name: "Simon Dice",
     hosting: "netlify",
     url: "https://juego-simon-dice-react.netlify.app/",
     description:
-      "El clásico juego de simón dice pero con 4 niveles de dificultad y hasta 4 jugadores",
+      "El clásico juego de simón dice pero con 4 niveles de dificultad y hasta 4 jugadores. Puedes ver número de jugadores, puntajes, turno en curso y turno siguiente, número de ronda",
     tags: ["Typescript", "React", "Context", "Tailwind", "Github", "lucide icons"],
     techs: ["react", "context", "typescript", "tailwind", "react icons", 'SweetAlert2', 'canvas-conffetti'],
+    category: ['juego'],
     img: "/img/sites/simon-dice.png",
     github: {
       front: "https://github.com/CarlosTrini/2026-SIMON-DICE-REACT",
@@ -21,11 +22,12 @@ export const projectsInfo: ProjectsInfoT[] = [
   {
     id: "623g334d-3ece-40e1-68c9-9e5129674732",
     year: '2026',
-    name: "Arquitectos MX (Sitio web con posts de blog y proyectos)",
+    name: "Arquitectos MX",
     hosting: "netlify",
     url: "https://despacho-arquitectos-mx.netlify.app/",
     description:
       "Portal de arquitectura con diferentes secciones: proyectos, servicios, proceso, equipo, blog y contacto. Los posts de blog y proyectos son creados con Markdown para posteriormente ser consumidos y mostradas.  Puedes dar click y leer las notas, puedes también ir a la página donde encontrar solo las notas creadas con el tema que elijas",
+    category: ['sitio web', 'blog'],
     tags: [
       "Typescript",
       "Astro",
@@ -60,6 +62,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     url: "https://online-academy-trinidad.netlify.app/",
     description:
       "Sitio de cursos online en el que se puede registrar al usuario e iniciar sesión, simular compras de cursos, visitar cursos por categorias, visitar perfiles de profesores y perfiles de cada curso, agregar comentarios con calificación al curso, el usuario tiene un perfil donde puede agregar tarjetas (FAKE) de pago, cambiar foto de perfil, ver sus cursos adquiridos y agregar a favoritos... cuenta con persitencia. Todo es desde localStorage",
+    category: ['sitio web', 'blog', 'e-commerce-dummy'],
     tags: [
       "Typescript",
       "React Ts",
@@ -79,16 +82,17 @@ export const projectsInfo: ProjectsInfoT[] = [
         "https://github.com/CarlosTrini/Online-Academy",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
   {
     id: "623g334d-3ece-40e1-80c9-9e5142938732",
     year: '2026',
-    name: "Pets Vet (landingPage)",
+    name: "Pets Vet ",
     hosting: "netlify",
     url: "https://petsvet.netlify.app/",
     description:
       "Landing page para veterinaria Pets Vet. Responsive con formulario de contacto y sección de FAQ",
+    category: ['landingPage'],
     tags: [
       "Typescript",
       "React Ts",
@@ -108,16 +112,17 @@ export const projectsInfo: ProjectsInfoT[] = [
         "https://github.com/CarlosTrini/2026-PETS-VET",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
   {
     id: "623g334d-3ece-40e1-68c9-9e5142938732",
     year: '2026',
-    name: "Vertice Global (blog noticiero)",
+    name: "Vertice Global",
     hosting: "netlify",
     url: "https://vertice-global-portal.netlify.app/",
     description:
       "portal de noticias con diferentes tópicos/categorías. Las notas son creadas con Markdown para posteriormente ser consumidas y mostradas. El sitio cuenta con diferentes secciones de tópicos. Puedes dar click y leer las notas, puedes también ir a la página donde encontrar solo las notas creadas con el topico que elijas. Página de nosotros y avisos de privacidad",
+    category: ['sitio web', 'blog'],
     tags: [
       "Typescript",
       "Astro",
@@ -140,16 +145,17 @@ export const projectsInfo: ProjectsInfoT[] = [
         "https://github.com/CarlosTrini/2026-VERTICE-GLOBAL",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
   {
     id: "69f43845-1372-441c-9ba7-606ae54a4852",
     year: '2026',
-    name: "Café Komorebi (LandingPage)",
+    name: "Café Komorebi",
     hosting: "netlify",
     url: "https://komorebi-cafeshop.netlify.app/",
     description:
       "Landing page para café Komorebi. Diseño minimalista y elegante",
+    category: ['landingPage'],
     tags: ["Typescript", "Astro", "Markdown", "Tailwind", "Lucide icons", "swiper", "Github"],
     techs: ["html", "css", "js"],
     img: "/img/sites/komorebi.png",
@@ -167,6 +173,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     url: "https://rickymortygame.netlify.app/",
     description:
       "Juego de memorama de la caricatura de Rick & Morty con tres niveles de dificultad. Las imágenes son dinámicas en cada juego ya que son traidas desde la misma API de rickymorty",
+    category: ['juego'],
     tags: ["HTML", "Javascript", "SCSS", "SweetAlert", "Github"],
     techs: ["html", "css", "js"],
     img: "/img/sites/rym.png",
@@ -174,7 +181,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/RickyMorty",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
 
   // {
@@ -214,6 +221,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     url: "https://developersbar.netlify.app/",
     description:
       "Sitio para desarrolladores construido con HTML, JavaScript y SCSS. Incluye secciones de presentación, tecnologías, servicios y contacto, con diseño responsivo y animaciones de scroll.",
+    category: ['landingPage'],
     tags: ["HTML", "Javascript", "SCSS", "Github"],
     techs: ["html", "css", "js"],
     img: "/img/sites/developersbar.png",
@@ -221,7 +229,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/DevelopersBar",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
   {
     id: "003fb9d6-25c8-404c-aabe-b64c9b4c2c63",
@@ -231,6 +239,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     url: "https://barber-shop-mern.netlify.app/",
     description:
       "BarberShop esta construida en dos partes. FrontEnd: React, Backend: Nodejs, express, JsonWebToken, Mongodb Atlas, Mongoose. Es una barbería en la cual se pueden registrar, iniciar sesión y agendar citas siempre y cuando se este registrado. Los servicios son agregados a un carrito con localstorage. cuenta con una sección para el administrador en el cual se puede buscar citas agendadas, dar por atendidas, agregar, eliminar, ver y editar servicios. Para acceder como administrador usar: user => carlos@carlos.com, pass => contrasena",
+    category: ['sitio web', 'e-commerce-dummy', 'API'],
     tags: [
       "react",
       "react-/sites/redux.png",
@@ -251,7 +260,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/barbershop-front",
       back: "https://github.com/CarlosTrini/barbershop-back",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
   // {
   //   id: "614d334d-3ece-40e1-80c9-9e5142278132",
@@ -297,6 +306,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     url: "https://star-wars-api-react.netlify.app/",
     description:
       "Página construida con  ReactJs, la cual consume una api de star wars. Aplicando scroll infinito, modo oscuro. Haciendo uso de Redux, permite agregar y eliminar un personaje de favoritos con data persistente , y ejecutar peticiones para llenar el state de los personajes",
+    category: ['landingPage'],
     tags: ["React", "SCSS", "JavaScript", "Github", "React-intersection-observer", "Redux", "Redux-thunk"],
     techs: ["react", "scss", "js", "github", "redux"],
     img: "/img/sites/starwars.png",
@@ -304,7 +314,7 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/star-wars-api",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
   {
     id: "821fb4j7-903cs-2943c-ñlks-g239a3i7s1t09",
@@ -314,6 +324,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     url: "https://portafolio-nine-zeta.vercel.app/",
     description:
       "Mi portafolio web. Realizado con Nextjs, SCSS module",
+    category: ['landingPage'],
     tags: [
       "react",
       "NextJs",
@@ -326,25 +337,8 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/PORTAFOLIO",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
-  // {
-  //   id: "69f41795-1049-441c-9ba7-606ae54a0502",
-  //   year: '',
-  //   name: "Juego Rick&Morty",
-  //   hosting: "netlify",
-  //   url: "https://rickandmorty-api-memorama.netlify.app/",
-  //   description:
-  //     "Juego de memorama de la caricatura de Rick & Morty con tres niveles de dificultad. Las imágenes son dinámicas en cada juego ya que son traidas desde la misma API de rickymorty",
-  //   tags: ["HTML", "Javascript", "SCSS", "SweetAlert", "Github"],
-  //   techs: ["html", "scss", "js"],
-  //   img: "/img/sites/rym.png",
-  //   github: {
-  //     front: "https://github.com/CarlosTrini/memorama-r-m",
-  //     back: "",
-  //   },
-  // },
-
   {
     id: "54792ac4-3294-413e-bc46-28ef03025478",
     year: '2021',
@@ -353,6 +347,7 @@ export const projectsInfo: ProjectsInfoT[] = [
     url: "https://event-organizer-gulp.netlify.app/",
     description:
       "Página para organizador de eventos, que extrae los datos desde archivos JavaScript simulando dicha data como si fuera traida desde alguna API. Realizada con Gulp, SCSS y libreria ScrollReveal",
+    category: ['landingPage'],
     tags: ["HTML", "SCSS", "JavaScript", "Github", "Gulp"],
     techs: ["html", "scss", "js", "gulp"],
     img: "/img/sites/eventorganizer.png",
@@ -360,26 +355,8 @@ export const projectsInfo: ProjectsInfoT[] = [
       front: "https://github.com/CarlosTrini/event-organizer",
       back: "",
     },
-    size: '1879 × 919'
+    size: '1920 × 1080'
   },
-
-  // {
-  //   id: "09489b2a-c944-40dd-91bb-3d942e05cc13",
-  //   year: '2020',
-  //   name: "Hallowen store",
-  //   hosting: "netlify",
-  //   url: "https://hallowen-store.netlify.app/",
-  //   description:
-  //     "Página estática de venta de productos para Hallowen, los productos se pintan simulando que dicha data es consumida desde alguna API. Realizada con Gulp, SCSS y libreria ScrollReveal",
-  //   tags: ["HTML", "SCSS", "JavaScript", "Github", "Gulp"],
-  //   techs: ["html", "scss", "js", "gulp"],
-  //   img: "/img/sites/hallowenstore.png",
-  //   github: {
-  //     front: "https://github.com/CarlosTrini/hallowen-store",
-  //     back: "",
-  //   },
-  // },  
-
 
 ];
 

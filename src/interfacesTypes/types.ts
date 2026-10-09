@@ -13,6 +13,8 @@ type GitInfoT = {
     back?: string;
 }
 
+type Categories = 'juego' | 'landingPage' | 'e-commerce' | 'blog' | 'sitio web' | 'CMS' | 'SPA' | 'API' | 'e-commerce-dummy';
+
 export type ProjectsInfoT = {
     id: string;
     name: string;
@@ -21,6 +23,7 @@ export type ProjectsInfoT = {
     description: string;
     tags: string[],
     techs: string[];
+    category: Categories[]
     img: string; //(link)
     github: GitInfoT,
     year: string;
