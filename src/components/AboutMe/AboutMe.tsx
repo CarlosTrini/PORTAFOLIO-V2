@@ -35,7 +35,7 @@ const AboutMe = () => {
       <div className="absolute top-1/2 left-0 w-72 h-72 bg-primary/5 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-[150px] pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className={`${activeTab == 'projects' ? 'w-full' : 'max-w-7xl'}  mx-auto relative z-10`}>
 
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
@@ -90,7 +90,7 @@ const AboutMe = () => {
         </div>
 
         {/* Tab Content */}
-        <div>
+        <div className="">
           {activeTab === "me" && <Me />}
           {activeTab === "skills" && <Skills />}
           {activeTab === "projects" && <Projects />}

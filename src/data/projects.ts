@@ -115,6 +115,23 @@ export const projectsInfo: ProjectsInfoT[] = [
     size: '1920 × 1080'
   },
   {
+    id: "69f43845-1372-441c-9ba7-606ae54a4851",
+    year: '2026',
+    name: "Dragon Ball Z (Game + Gemini + API-DBZ)",
+    hosting: "netlify",
+    url: "https://dbz-mini-juegos.netlify.app/",
+    description: "Página de temática de DBZ, que muestra personajes y planetas consumidos desde una API-DBZ, se muestran también las sagas... EL sitio contiene DOS MINI-JUEGOS: Ahorcado y Memorama, ambos con modalidades de juego o dificultades",
+    category: ['sitio web', 'juego', 'API'],
+    tags: ["React", "Typescript", "Tailwind", "SweetAlert", "Github", "React Router Dom", "Lucide icons", "gemini api", "api-dbz"],
+    techs: ["react", "reactts", "tailwind", "sweetalert", "github", 'axios', 'react-query', 'gemini-api'],
+    img: "/img/sites/dbz.png",
+    github: {
+      front: "https://github.com/CarlosTrini/2026-DBZ-JUEGOS",
+      back: "",
+    },
+    size: '1920 × 1080'
+  },
+  {
     id: "623g334d-3ece-40e1-68c9-9e5142938732",
     year: '2026',
     name: "Vertice Global",
@@ -165,24 +182,25 @@ export const projectsInfo: ProjectsInfoT[] = [
     },
     size: '1920 × 1080'
   },
-  {
-    id: "69f43843-1049-441c-9ba7-606ae54a0502",
-    year: '2024',
-    name: "Juego Rick&Morty",
-    hosting: "netlify",
-    url: "https://rickymortygame.netlify.app/",
-    description:
-      "Juego de memorama de la caricatura de Rick & Morty con tres niveles de dificultad. Las imágenes son dinámicas en cada juego ya que son traidas desde la misma API de rickymorty",
-    category: ['juego'],
-    tags: ["HTML", "Javascript", "SCSS", "SweetAlert", "Github"],
-    techs: ["html", "css", "js"],
-    img: "/img/sites/rym.png",
-    github: {
-      front: "https://github.com/CarlosTrini/RickyMorty",
-      back: "",
-    },
-    size: '1920 × 1080'
-  },
+
+  // {
+  //   id: "69f43843-1049-441c-9ba7-606ae54a0502",
+  //   year: '2024',
+  //   name: "Juego Rick&Morty",
+  //   hosting: "netlify",
+  //   url: "https://rickymortygame.netlify.app/",
+  //   description:
+  //     "Juego de memorama de la caricatura de Rick & Morty con tres niveles de dificultad. Las imágenes son dinámicas en cada juego ya que son traidas desde la misma API de rickymorty",
+  //   category: ['juego'],
+  //   tags: ["HTML", "Javascript", "SCSS", "SweetAlert", "Github"],
+  //   techs: ["html", "css", "js"],
+  //   img: "/img/sites/rym.png",
+  //   github: {
+  //     front: "https://github.com/CarlosTrini/RickyMorty",
+  //     back: "",
+  //   },
+  //   size: '1920 × 1080'
+  // },
 
   // {
   //   id: "258d600d-e20b-4f44-b26c-44a49d1d49ff",
@@ -298,24 +316,24 @@ export const projectsInfo: ProjectsInfoT[] = [
   //     back: "https://github.com/CarlosTrini/login-MERN-BACK",
   //   },
   // },
-  {
-    id: "31b4fa1f-7eee-4f1e-b3cb-2b1226677379",
-    year: '2021',
-    name: "Star Wars",
-    hosting: "netlify",
-    url: "https://star-wars-api-react.netlify.app/",
-    description:
-      "Página construida con  ReactJs, la cual consume una api de star wars. Aplicando scroll infinito, modo oscuro. Haciendo uso de Redux, permite agregar y eliminar un personaje de favoritos con data persistente , y ejecutar peticiones para llenar el state de los personajes",
-    category: ['landingPage'],
-    tags: ["React", "SCSS", "JavaScript", "Github", "React-intersection-observer", "Redux", "Redux-thunk"],
-    techs: ["react", "scss", "js", "github", "redux"],
-    img: "/img/sites/starwars.png",
-    github: {
-      front: "https://github.com/CarlosTrini/star-wars-api",
-      back: "",
-    },
-    size: '1920 × 1080'
-  },
+  // {
+  //   id: "31b4fa1f-7eee-4f1e-b3cb-2b1226677379",
+  //   year: '2021',
+  //   name: "Star Wars",
+  //   hosting: "netlify",
+  //   url: "https://star-wars-api-react.netlify.app/",
+  //   description:
+  //     "Página construida con  ReactJs, la cual consume una api de star wars. Aplicando scroll infinito, modo oscuro. Haciendo uso de Redux, permite agregar y eliminar un personaje de favoritos con data persistente , y ejecutar peticiones para llenar el state de los personajes",
+  //   category: ['landingPage'],
+  //   tags: ["React", "SCSS", "JavaScript", "Github", "React-intersection-observer", "Redux", "Redux-thunk"],
+  //   techs: ["react", "scss", "js", "github", "redux"],
+  //   img: "/img/sites/starwars.png",
+  //   github: {
+  //     front: "https://github.com/CarlosTrini/star-wars-api",
+  //     back: "",
+  //   },
+  //   size: '1920 × 1080'
+  // },
   {
     id: "821fb4j7-903cs-2943c-ñlks-g239a3i7s1t09",
     year: '2022',
@@ -339,24 +357,24 @@ export const projectsInfo: ProjectsInfoT[] = [
     },
     size: '1920 × 1080'
   },
-  {
-    id: "54792ac4-3294-413e-bc46-28ef03025478",
-    year: '2021',
-    name: "Event Organizer",
-    hosting: "netlify",
-    url: "https://event-organizer-gulp.netlify.app/",
-    description:
-      "Página para organizador de eventos, que extrae los datos desde archivos JavaScript simulando dicha data como si fuera traida desde alguna API. Realizada con Gulp, SCSS y libreria ScrollReveal",
-    category: ['landingPage'],
-    tags: ["HTML", "SCSS", "JavaScript", "Github", "Gulp"],
-    techs: ["html", "scss", "js", "gulp"],
-    img: "/img/sites/eventorganizer.png",
-    github: {
-      front: "https://github.com/CarlosTrini/event-organizer",
-      back: "",
-    },
-    size: '1920 × 1080'
-  },
+  // {
+  //   id: "54792ac4-3294-413e-bc46-28ef03025478",
+  //   year: '2021',
+  //   name: "Event Organizer",
+  //   hosting: "netlify",
+  //   url: "https://event-organizer-gulp.netlify.app/",
+  //   description:
+  //     "Página para organizador de eventos, que extrae los datos desde archivos JavaScript simulando dicha data como si fuera traida desde alguna API. Realizada con Gulp, SCSS y libreria ScrollReveal",
+  //   category: ['landingPage'],
+  //   tags: ["HTML", "SCSS", "JavaScript", "Github", "Gulp"],
+  //   techs: ["html", "scss", "js", "gulp"],
+  //   img: "/img/sites/eventorganizer.png",
+  //   github: {
+  //     front: "https://github.com/CarlosTrini/event-organizer",
+  //     back: "",
+  //   },
+  //   size: '1920 × 1080'
+  // },
 
 ];
 

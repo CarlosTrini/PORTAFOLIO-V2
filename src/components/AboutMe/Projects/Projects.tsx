@@ -51,6 +51,14 @@ const Projects = () => {
               slidesPerView: 3,
               spaceBetween: 24,
             },
+            1300: {
+              slidesPerView: 4,
+              spaceBetween: 24,
+            },
+            1500: {
+              slidesPerView: 5,
+              spaceBetween: 24,
+            },
           }}
           className="pb-14!"
         >
